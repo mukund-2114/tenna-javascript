@@ -1,0 +1,31 @@
+/* Basic stylesheet for Tenna College simple site */
+:root{
+    --bg:#f7f9fb;
+    --accent:#0b63d7;
+    --muted:#6b7280;
+    --container:1100px;
+}
+*{box-sizing:border-box}
+body{font-family:Segoe UI,system-ui,Roboto,Arial,sans-serif;margin:0;background:var(--bg);color:#111}
+.container{max-width:var(--container);margin:0 auto;padding:1rem}
+.site-header{background:#fff;border-bottom:1px solid #e6eef9}
+.site-header .container{display:flex;align-items:center;justify-content:space-between}
+.brand{font-weight:700;color:var(--accent);text-decoration:none;font-size:1.1rem}
+.main-nav a{margin-left:1rem;color:#222;text-decoration:none;font-weight:600}
+.hero{padding:4rem 0;background:linear-gradient(180deg,#fff 0%,#f4f8ff 100%)}
+.hero h1{font-size:2rem;margin:0 0 .5rem}
+.lead{color:var(--muted);margin-bottom:1rem}
+.btn{display:inline-block;padding:.6rem 1rem;border-radius:6px;text-decoration:none;border:1px solid transparent}
+.btn.primary{background:var(--accent);color:#fff}
+.btn.ghost{background:transparent;border-color:var(--accent);color:var(--accent)}
+.overview{padding:2rem 0}
+.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:1rem;margin-top:1rem}
+.card{background:#fff;padding:1rem;border-radius:8px;border:1px solid #eef4ff}
+.quick-links ul{list-style:none;padding:0;margin:0}
+.quick-links li{margin:.5rem 0}
+.site-footer{background:#fff;border-top:1px solid #e6eef9;padding:.8rem 0;margin-top:2rem}
+h1,h2,h3{color:#0b1730}
+@media(min-width:800px){
+    .hero h1{font-size:2.6rem}
+    .main-nav a{margin-left:1.2rem}
+}

@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Tenna College</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header class="site-header">
+        <div class="container">
+            <a class="brand" href="index.html">Tenna College</a>
+            <nav class="main-nav">
+                <a href="index.html">Home</a>
+                <a href="about.html">About</a>
+                <a href="departments.html">Departments</a>
+                <a href="admissions.html">Admissions</a>
+                <a href="contact.html">Contact</a>
+                <a href="mukund.html">Demo</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="container">
+                <h1>Welcome to Tenna College</h1>
+                <p class="lead">A place for learning, research, and community.</p>
+                <p>
+                    <a class="btn primary" href="admissions.html">Apply Now</a>
+                    <a class="btn ghost" href="about.html">Learn More</a>
+                </p>
+            </div>
+        </section>
+
+        <section class="overview container">
+            <h2>Our Mission</h2>
+            <p>Tenna College is committed to providing a high-quality education that prepares students for successful careers and engaged citizenship.</p>
+
+            <div class="cards">
+                <article class="card">
+                    <h3>Academic Excellence</h3>
+                    <p>Strong programs across sciences, arts, and professional studies.</p>
+                </article>
+                <article class="card">
+                    <h3>Research & Innovation</h3>
+                    <p>Faculty-led research with opportunities for undergraduates.</p>
+                </article>
+                <article class="card">
+                    <h3>Community</h3>
+                    <p>Active campus life with clubs, volunteering, and support services.</p>
+                </article>
+            </div>
+        </section>
+
+        <section class="quick-links container">
+            <h2>Quick Links</h2>
+            <ul>
+                <li><a href="departments.html">Departments & Programs</a></li>
+                <li><a href="admissions.html">Admissions & Aid</a></li>
+                <li><a href="contact.html">Visit / Contact</a></li>
+            </ul>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container">
+            <p>&copy; <span id="year"></span> Tenna College — All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script>
+        document.getElementById('year').textContent = new Date().getFullYear();
+    </script>
+</body>
+</html>
