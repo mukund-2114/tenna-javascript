@@ -1,0 +1,22 @@
+Task 1: Basic Calculator (if/else)
+Concepts: arithmetic, conditionals
+Task: Ask the user for:
+first number
+operator (+, -, *, /)
+second number
+Use if/else to perform the correct operation.
+
+
+Task 2: Grade Checker
+Concepts: conditionals
+Task:Ask for a score (0–100).
+Return:
+A if 90–100
+
+B if 80–89
+
+C if 70–79
+
+D if 60–69
+
+F otherwise

@@ -97,5 +97,130 @@ let college = {
 console.log(student.course);
 console.log(student["address"]);
 
+let x = 10;
+let y = 5;
+let z = x + y;
+
+console.log("Addition:", z);
+
+let sub = x - y;
+console.log("Subtraction:", sub);
+
+let mul = x * y;
+console.log("Multiplication:", mul);
+
+let div = x / y;
+console.log("Division:", div);
+
+let mod = 15 % 4;
+console.log("Modulus:", mod);
+
+// x++;
+// y--;
+// ++x;
+// --y;
+// x = x + 1;
+// x=10
+// console.log("Incremented x:", ++x);
+// console.log("Incremented x:", x++);
+// console.log("Incremented x:", x);
+
+// console.log("Decremented y:", y);
+
+ x = 10;
+
+ x = x +15;
+ x +=15; //x=x+15
+
+
+
+ let myage = 4;
+
+// if(myage != 20){
+//     console.log("You are 20 years old");
+// }
+// else{
+//     console.log("You are not 20 years old");
+// }
+// 
+// if(myage >= 18){
+//     console.log("You are eligible to vote");
+// }
+// else{
+//     console.log("You cannot vote")
+// }
+
+
+let isEligible = true
+
+// if(!isEligible){
+//     console.log("you are eligible")
+// }
+// else{
+//     console.log("Not eligible")
+// }
+
+myage = 200
+
+if(myage >= 18 && myage < 100){
+    console.log("You are eligible to vote");
+}
+else{
+    console.log("You cannot vote")
+}
+
+let weather = "raining"
+let haveWork = false
+
+if(weather == "raining" || haveWork){
+    console.log("I will not go outside")
+}
+
+else{
+    console.log("go outside")
+}
+
+
+let marks = 150
+
+
+// marks is greater 90 and less 100 ----grade a
+// marks is greater 70 and less 90 ----grade b
+// marks is greater 70 and less 90 ----grade b
+// marks is greater 70 and less 90 ----grade b
+
+if(marks > 90){
+    console.log("Grade A")
+}
+else if( marks > 70){
+    console.log("Grade B")
+}
+else if(marks > 60){
+    console.log("Grade C")
+}
+else if(marks > 0){
+    console.log("Grade D")
+}
+else {
+    console.log("Invalid Marks")
+}
+
+
+// create a small calculator
+// ask user for 2 numbers and one operation
+
+// let num = prompt("enter a value")
+// console.log(num)
+
+
+let a = 10
+let b = prompt("enter value of b")
+
+console.log("a",a)
+console.log("b",b)
+console.log("Addition",a+b)
+
+document.write(a+b)
+
 
 
