@@ -7,6 +7,7 @@ second number
 Use if/else to perform the correct operation.
 
 
+
 Task 2: Grade Checker
 Concepts: conditionals
 Task:Ask for a score (0–100).
@@ -18,5 +19,27 @@ B if 80–89
 C if 70–79
 
 D if 60–69
-
 F otherwise
+
+
+
+Task 3:
+using for loop 
+count me the number of vowels in a string
+
+
+Task 4:
+ask user for a number1 and number 2
+using for loop print all number between them
+
+
+Task 4:
+ask user for a number1 and number 2
+using for loop print the sum of all the number
+e.g  2 6
+2+3+4+5+6 = 20
+
+
+Task 5:
+ask 2 number from user and a operation
+switch case

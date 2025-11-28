@@ -214,13 +214,35 @@ else {
 
 
 let a = 10
-let b = prompt("enter value of b")
+// let b = prompt("enter value of b")
 
-console.log("a",a)
-console.log("b",b)
-console.log("Addition",a+b)
+// console.log("a",a)
+// console.log("b",b)
+// console.log("Addition",a+b)
 
-document.write(a+b)
+// document.write(a+b)
 
+
+
+let code = 2
+
+switch(code){ 
+    case 1: console.log("live orders"); break;
+    case 2: console.log("cancel the order"); break;
+    case 3: console.log("update payment");break;
+    case 4: console.log("talk to customer care");break;
+    default: console.log(" please enter a valid code");break;
+}
+
+
+let meet = "HR"
+
+switch(meet){
+    case "Admin": console.log("this is admin ");break;
+    case "Marketing":console.log("marketign team");break;
+    case "HR":console.log("hr");break;
+    case "business":console.log("business people");break;
+    default: console.log("not present")
+}
 
 
