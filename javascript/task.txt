@@ -43,3 +43,24 @@ e.g  2 6
 Task 5:
 ask 2 number from user and a operation
 switch case
+
+Task 6:
+reverse the string using for loop
+// hello    olleh
+
+Task 7:
+Palindrome Checker -using for loop // do somethign with each character and 
+just check some conditon at the end
+user enters "madam"
+output should be "it is a palindrome"
+
+Task 8:
+make a lottery system
+have a random lottery winning number
+let user enter their lottery ticket number
+print out you won
+else unlucky
+
+
+Task 9:
+count the occurence of a character in a string

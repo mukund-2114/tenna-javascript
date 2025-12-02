@@ -78,22 +78,54 @@ for(let i=0 ; i<students.length ;i++){
 //     console.log(users[i]["address"]["city"])
 // }
 
-
+// function declaration only without any parameter
 function greeting(){
     console.log("greeting, welcome")
 }
 
-greeting()
+// greeting()
 
-
+// function with parameter
 function addition( val1, val2){
     console.log("addition",val1+val2)
 }
 
-addition(6,19)
-addition(195,264)
+// addition(6,19)
+// addition(195,264)
 
 
+
+// let input1 = parseInt(prompt("enter number 1"))
+// let input2 =  parseInt(prompt("enter number 2"))
+// // let x = "5"
+// console.log("number 1:",input1)
+// console.log("number 2:",input2)
+// console.log("added numbers:",input1+input2)
+// console.log("test",parseInt("abc"))
 // let a = 5
 // let b = 10
 // console.log("additon",a+b)
+
+function calculator(val1, val2, operation){
+    switch(operation){
+        case '+':console.log("val1 + val2 ")
+        case '+':console.log("afdioa")
+        case '+':console.log("afdioa")
+        case '+':console.log("afdioa")
+    }
+}
+
+
+function fullName(fname, lName){
+    console.log(fname+ "-" + lName)
+}
+
+
+fullName("Mukund","kapadia")
+
+
+
+let y = 3.6
+console.log(Math.round(Math.random() * 100))
+
+
