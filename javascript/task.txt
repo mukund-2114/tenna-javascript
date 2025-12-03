@@ -64,3 +64,16 @@ else unlucky
 
 Task 9:
 count the occurence of a character in a string
+
+Task 10:
+
+
+Task 11
+make a encoder // encoding
+i want you to take a user input for the message and the private key
+encode it for each character to the next character using that private key
+
+user enter "mukund"
+private key 1
+
+output will be nvlvoe
