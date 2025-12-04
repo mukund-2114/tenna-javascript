@@ -43,6 +43,7 @@ console.log(myname.length)
 
 console.log(myname.charAt(0))
 
+
 console.log(myname.charCodeAt(0))
 
 console.log(String.fromCharCode(109))
@@ -73,4 +74,17 @@ let newText = text.replaceAll("Microsoft", "W3Schools");
 
 
 console.log(user.includes(""))
+
+
+
+let weather = "raining"
+
+// if(weather == "raining"){
+//     console.log("i will stay home")
+// }
+// else{
+//     console.log("i will go out")
+// }
+
+weather=="raining" ? console.log("sleep") : console.log("go out")
 

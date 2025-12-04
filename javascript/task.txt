@@ -77,3 +77,19 @@ user enter "mukund"
 private key 1
 
 output will be nvlvoe
+
+
+Task 12   give it last priority
+parenthesis Checker
+"([{}])" true
+"()[]{}" true
+"({)}[]"
+
+task 13 
+return the max length of a word in an array
+['Apple', 'Mango', 'aidf', 'oiahdafdafdf', 'au8eioa']
+
+task 14
+reverse the words not character in a sentence
+"hey how are you doing"
+"doing you are how hey"
