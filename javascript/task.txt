@@ -93,3 +93,14 @@ task 14
 reverse the words not character in a sentence
 "hey how are you doing"
 "doing you are how hey"
+
+task 15
+i have 2 array and i want to check whether the values of each 
+array when combined together equals to second array
+e.g word1=["ab","c"] word2 = ["a","bc"] true
+["a","b","c"] ["ab","c"]
+
+task 16
+create a array that can have multiple values but can only be 
+x++ , x-- ,++x, --x and output should be final value of x default value start from 0
+e.g ['x++','x++','x--'] output 1

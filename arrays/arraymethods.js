@@ -1,70 +1,99 @@
-const students = ["John","jack","lucy"]
+// const students = ["John","jack","lucy"]
 
-console.log(students[1])
+// console.log(students[1])
 
 
-//push method
+// //push method
 
-// const newarray = students.push("harry")
+// // const newarray = students.push("harry")
 
+// // console.log(students)
+// // console.log(newarray)
+
+// //pop method
+
+// const poparray = students.pop()
+// console.log(poparray)
+
+
+// // shift method
+
+// students.shift()
 // console.log(students)
-// console.log(newarray)
 
-//pop method
+// //unshift method
+// students.unshift(5)
+// console.log(students)
 
-const poparray = students.pop()
-console.log(poparray)
-
-
-// shift method
-
-students.shift()
-console.log(students)
-
-//unshift method
-students.unshift(5)
-console.log(students)
-
-// datastructure
-// stack, queue, tree,
+// // datastructure
+// // stack, queue, tree,
 
 
-const fruits = ["Banana", "Orange", "Apple", "Mango","aidf","oiahdf","au8eioa"];
+// const fruits = ["Banana", "Orange", "Apple", "Mango","aidf","oiahdf","au8eioa"];
 
 
 
-let myList = fruits.toString();
+// let myList = fruits.toString();
 
 
-console.log(myList)
+// console.log(myList)
 
-// let myarray = myList.split(',')
-// console.log(myarray)
+// // let myarray = myList.split(',')
+// // console.log(myarray)
 
-let joinelements = fruits.join(' & ')
-console.log(joinelements)
-
-
-const combined = students.concat(fruits)
-console.log(combined)
+// let joinelements = fruits.join(' & ')
+// console.log(joinelements)
 
 
-const citrus = fruits.slice(2);
-console.log(citrus)
+// const combined = students.concat(fruits)
+// console.log(combined)
 
-fruits.splice(2, 3);
-console.log(fruits)
 
-const fruits2 = ["Banana", "Orange", "Apple", "Mango"];
-delete fruits2[0];
-console.log(fruits2)
+// const citrus = fruits.slice(2);
+// console.log(citrus)
 
-const hi = fruits2.sort()
-console.log("hi",fruits2)
-console.log(hi)
+// fruits.splice(2, 3);
+// console.log(fruits)
 
-const num1 = [1,2,3,5]
-const num2 = [5,6,2,1]
+// const fruits2 = ["Banana", "Orange", "Apple", "Mango"];
+// delete fruits2[0];
+// console.log(fruits2)
 
-const comb = [...num1,...num2,56,185,216,9819]
-console.log("comb",comb)
+// const hi = fruits2.sort()
+// console.log("hi",fruits2)
+// console.log(hi)
+
+// const num1 = [1,2,3,5]
+// const num2 = [5,6,2,1]
+
+// const comb = [...num1,...num2,56,185,216,9819]
+// console.log("comb",comb)
+
+// const arr = ['Apple', 'Mango', 'aidf', 'oiahdafdafdf', 'au8eioa']
+// let maxNum = 0
+
+// for(let i=0;i<arr.length;i++){
+//     // console.log(arr[i] + " " + arr[i].length)
+//     if(arr[i].length > maxNum ){
+//         maxNum = arr[i].length
+//     }
+// }
+
+// console.log("max length", maxNum)
+
+
+
+// const person = {
+//     name:"hello",
+//     age:"hji",
+//     address:"adiofjhn  joafd"
+// }
+
+// console.log(person.nameoo)
+
+// if(person.nameoo){
+//     console.log("hello aduiohfo ")
+// }
+
+document.getElementById('hello').innerHTML = "welcome to js"
+document.getElementById('hello').style.color = "red"
