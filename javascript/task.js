@@ -65,7 +65,7 @@ let x = 0
 const arr = ["++x","x--","x++","++x"]
 
 for(i= 0;i< arr.length;i++){
-    console.log(arr[i])
+    // console.log(arr[i])
     // if(arr[i] == "x++" || arr[i]=="++x"){
     //     x++
     // }
@@ -77,3 +77,92 @@ for(i= 0;i< arr.length;i++){
 }
 
 console.log(x)
+
+
+// Task 12   give it last priority
+// parenthesis Checker
+// "([{}])" true
+// "()[]{}" true
+// "({)}[]" false
+
+function parethesisChecker(str){
+    let arr = []
+    let brackets = {
+        '{':'}',
+        '(':')',
+        '[':']',
+
+    }
+
+    for (let index = 0; index < str.length; index++) {
+        const element = str[index];
+        // console.log(element)
+        if(element == '[' || element == '(' || element == '{'){
+            arr.push(element)
+        }
+        else{
+            const lastElement = arr.pop() // {
+        //    switch (element) {
+        //     case '}':
+        //         if(lastElement != '{'){
+        //             console.log("wrong bracket")
+        //             return false
+        //         }
+        //         break;
+        //     case ']':
+        //         if(lastElement != '['){
+        //             return false
+        //         }
+        //         break;
+        //     case ')':
+        //         if(lastElement != '('){
+        //             return false
+        //         }
+        //         break;
+           
+        //     default:
+        //         break;
+        //    }
+        console.log("current element",element)
+        console.log(brackets[lastElement])
+
+        if(element != brackets[lastElement]){
+            console.log("not matching")
+            return false
+        }
+    }
+    }
+    return arr.length
+    
+}
+
+function parethesisChecker1(str){
+    // "([{}])" true
+    while(true){
+        if(str.length==0){
+            break;
+        }
+        str = str.replace('{}',"")
+        str = str.replace('()',"")
+        str =  str.replace('[]',"")
+
+        
+    }
+    console.log("str",str)
+}
+
+console.log(parethesisChecker1("([{}])"))
+
+
+
+
+const num1 = [1,2,3,4,5,6,7]
+
+for (const element of num1) {
+    console.log(element)
+}
+
+for (const key in num1) {
+    
+    console.log(key)
+}
