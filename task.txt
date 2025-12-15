@@ -104,3 +104,14 @@ task 16
 create a array that can have multiple values but can only be 
 x++ , x-- ,++x, --x and output should be final value of x default value start from 0
 e.g ['x++','x++','x--'] output 1
+
+
+Task 17 Given a string s, reverse the order of characters in each word within a
+ sentence while still preserving whitespace and initial word order.
+
+Input: s = "Let's take LeetCode contest"
+Output: "s'teL ekat edoCteeL tsetnoc"
+ 
+
+ Task 18 follow this link
+ https://leetcode.com/problems/split-a-string-in-balanced-strings/description/?envType=problem-list-v2&envId=string
