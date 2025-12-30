@@ -123,5 +123,5 @@ myPromise.then(()=>console.log("hello"),()=>console.log("not allowed"))
 fetch('https://jsonplaceholder.typicode.com/users')
 .then(y=>y.json()).then(x=>console.log(x))
 
-
+console.log("ending....")
 // https://luxereserve-hotel-api.onrender.com/allPlaces
