@@ -26,3 +26,5 @@ async function getWeatherDetais(){
         console.log(error)
     }
 }
+
+

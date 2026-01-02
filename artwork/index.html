@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A modern, dynamic platform to share and discover digital artwork. No sign-up required.">
+    <title>ArtSpace | Share Your Vision</title>
+    
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Icons -->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
+    
+    <!-- Styles -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Background Elements -->
+    <div class="fixed-bg">
+        <div class="glow glow-1"></div>
+        <div class="glow glow-2"></div>
+    </div>
+
+    <nav class="glass-nav">
+        <div class="logo">
+            <i class="ri-brush-2-fill"></i> ArtSpace
+        </div>
+        <button id="uploadBtn" class="btn-primary">
+            <i class="ri-upload-cloud-line"></i> Upload Art
+        </button>
+    </nav>
+
+    <main>
+        <header class="hero">
+            <h1 class="hero-title">Discover <span class="gradient-text">Digital</span> <br> Masterpieces</h1>
+            <p class="hero-subtitle">A decentralized canvas for the world's imagination. Upload your art instantly, no account needed.</p>
+        </header>
+
+        <section class="gallery-container">
+            <div id="galleryGrid" class="gallery-grid">
+                <!-- Artworks will be injected here -->
+            </div>
+            <div id="emptyState" class="empty-state hidden">
+                <i class="ri-image-line"></i>
+                <p>No masterpieces yet. Be the first to post!</p>
+            </div>
+        </section>
+    </main>
+
+    <!-- Upload Modal -->
+    <div id="uploadModal" class="modal-overlay hidden">
+        <div class="modal glass-panel">
+            <div class="modal-header">
+                <h2>Upload Artwork</h2>
+                <button id="closeModal" class="icon-btn"><i class="ri-close-line"></i></button>
+            </div>
+            <div class="modal-body">
+                <div class="drop-zone" id="dropZone">
+                    <input type="file" id="fileInput" accept="image/*" hidden>
+                    <div class="drop-content">
+                        <i class="ri-upload-2-line"></i>
+                        <p>Drag & Drop or Click to Select</p>
+                        <span class="file-info">Supports JPG, PNG, WEBP</span>
+                    </div>
+                </div>
+                <div id="previewContainer" class="preview-container hidden">
+                    <img id="imagePreview" src="" alt="Preview">
+                </div>
+                <div class="input-group">
+                    <label for="artTitle">Title</label>
+                    <input type="text" id="artTitle" placeholder="e.g. Neon Dreams">
+                </div>
+                <div class="input-group">
+                    <label for="artAuthor">Artist Name</label>
+                    <input type="text" id="artAuthor" placeholder="e.g. Alex Doe">
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button id="publishBtn" class="btn-primary full-width">Publish to Gallery</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Notification Toast -->
+    <div id="toast" class="toast hidden">
+        <i class="ri-checkbox-circle-fill"></i>
+        <span>Artwork uploaded successfully!</span>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
