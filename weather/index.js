@@ -1,6 +1,6 @@
 console.log("weather app")
 
-const API_KEY = "1d86a56c12422ae014c72ac0bc807215"
+const API_KEY = "xxxxxxxxx put your api key here xxxx"
 
 const city = document.getElementById("weatherInput")
 const tempOutput = document.getElementById("temp")
